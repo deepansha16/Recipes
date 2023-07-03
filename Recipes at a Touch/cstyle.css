@@ -1,0 +1,56 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: serif;
+	background-image: url(dessert.jpg);
+	height: 100vh; 
+	background-size: cover;
+	background-position: center;
+}
+.Contact-title{
+	margin-top: 100px;
+	color: #ffff;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+}
+.Contact-title h1{
+	font-size: 32px;
+	line-height: 10px;
+	color: white;
+	}
+
+form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+}
+.form-control{
+	width: 680px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid grey;
+	color: #ffff;
+	font-size: 19px;
+	margin-bottom: 16px;
+
+}
+input{
+	height: 45px;
+}
+form.submit{
+	background: #ff5722;
+	border-color: transparent;
+	color: #ffff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+
+}
+form.submit:hover{
+	background-color: #f44336;
+	cursor: pointer;
+
+}
